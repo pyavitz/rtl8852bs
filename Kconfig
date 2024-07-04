@@ -1,5 +1,5 @@
 config RTL8852BS
-	tristate "Realtek 8852B SDIO Wireless driver"
+	tristate "Realtek 8852B SDIO support"
 	depends on WLAN && MMC && CFG80211
 	default m
 	help
